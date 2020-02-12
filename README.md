@@ -1,4 +1,4 @@
-# app2
+# Ionic/Vue app
 
 ## Project setup
 ```
