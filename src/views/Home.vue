@@ -12,8 +12,8 @@
 
     <ion-content class="ion-padding">
       <img alt="Vue logo" src="../assets/logo.png">
-      <ion-button @click="goToAbout" full>Go to About</ion-button>
     </ion-content>
+    <Footer />
   </div>
 </template>
 
