@@ -1,25 +1,12 @@
 <template>
   <div id="app">
-    <ion-header>
-      <ion-toolbar>
-        <Header msg="Ionic_app"/>
-      </ion-toolbar>
-    </ion-header>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import Header from "@/components/Header.vue";
   export default {
     name: "home",
-    components: {
-      Header
-    },
   };
 </script>
 
